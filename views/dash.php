@@ -20,8 +20,10 @@
                 <img src="./storage/${f.img}" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">${f.produto}</h5>
+                <p class="card-text">${f.marca}</p>
                 <p class="card-text">${f.descricao}</p>
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <p class=card-text"><strong>R$ ${f.preco}</strong></p>
+                <a href="carrinho?id=${f.id_produto}" class="btn btn-primary">Adicionar ao carrinho</a>
                 </div>
             </div>
             </div>
